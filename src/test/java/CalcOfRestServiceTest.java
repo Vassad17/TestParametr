@@ -9,7 +9,7 @@ public class CalcOfRestServiceTest {
     void shouldtestCalcOfRestService(
     ) {
         CalcOfRestService calcOfRestService = new CalcOfRestService();
-        int expected = 9;
+        int expected = 3;
         int actual = calcOfRestService.calculate(10000, 3000);
     }
 }
